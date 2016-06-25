@@ -1,0 +1,89 @@
+/*Author: Andres Botello*/
+body
+{
+    font-family: 'Calisto MT';
+    margin: 0;
+}
+footer {
+    margin-top: 50px;
+}
+p {
+    margin: 0px;
+    margin-bottom: 15px;
+}
+.video {
+    padding-top: 15px;
+}
+.welcome {
+    width: 800px;
+}
+.menu2
+{
+    padding-left: 3px;
+}
+.menu6
+{
+    padding-left: 125px;
+}
+.menu5
+{
+    padding-left: 70px;
+}
+.menu4
+{
+    padding-left: 35px;
+}
+.menu3
+{
+    padding-left: 10px;
+}
+.table
+{
+    display: table;
+}
+.col
+{
+    position: relative;
+    float: left;
+}
+.section
+{
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.container
+{
+    margin-right: auto;
+    margin-left: auto;
+}
+.logo img {
+    width: 90%;
+}
+.img-welcome
+{
+    padding-top: 50px;
+}
+.img-welcome img {
+    width: 780px;
+    height: 132px;
+}
+.parr
+{
+    width: 800px;
+    text-align: justify;
+}
+.parr2
+{
+    font-size: 15pt;
+    line-height: 115%;
+    text-align: justify;
+    color: #632423;
+}
+.tit
+{
+    font-size: 17pt;
+    font-weight: bold;
+    line-height: 115%;
+    text-decoration: underline;
+    color: #632423;
+}
