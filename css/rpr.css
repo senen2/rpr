@@ -1,7 +1,6 @@
-/*Author: Andres Botello*/
-body
-{
-    font-family: 'Calisto MT';
+/*Author:AndresBotello*/
+body {
+    font-family: 'CalistoMT';
     margin: 0;
 }
 footer {
@@ -17,70 +16,57 @@ p {
 .welcome {
     width: 800px;
 }
-.menu2
-{
+.menu2 {
     padding-left: 3px;
 }
-.menu6
-{
+.menu6 {
     padding-left: 125px;
 }
-.menu5
-{
+.menu5 {
     padding-left: 70px;
 }
-.menu4
-{
+.menu4 {
     padding-left: 35px;
 }
-.menu3
-{
+.menu3 {
     padding-left: 10px;
 }
-.table
-{
+.table {
     display: table;
 }
-.col
-{
+.col {
     position: relative;
     float: left;
 }
-.section
-{
+.section {
     padding-right: 20px;
     padding-left: 20px;
 }
-.container
-{
+.container {
     margin-right: auto;
     margin-left: auto;
 }
-.logo img {
+.logoimg {
     width: 90%;
 }
-.img-welcome
-{
+.img-welcome {
     padding-top: 50px;
 }
-.img-welcome img {
+.img-welcomeimg {
     width: 780px;
     height: 132px;
 }
-.parr
-{
+.parr {
     width: 800px;
     text-align: justify;
 }
-.parr2
-{
+.parr2 {
     font-size: 15pt;
     line-height: 115%;
     text-align: justify;
     color: #632423;
 }
-.tit
-{
+.tit {
     font-size: 17pt;
     font-weight: bold;
     line-height: 115%;
