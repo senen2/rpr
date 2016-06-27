@@ -1,23 +1,50 @@
 /*Author:AndresBotello*/
 body {
-    font-family: 'CalistoMT';
+    font-family: 'Calisto MT';
+    color: #632423;
     margin: 0;
 }
 footer {
     margin-top: 50px;
 }
 p {
-    margin: 0px;
+    margin: 0;
     margin-bottom: 15px;
+}
+.info-contact p {
+    text-align: center;
+    font-size: 11.0pt;
+    font-family: Calibri, sans-serif;
+    margin-bottom: .0001pt;
+    font-weight: bold;
+    width: 770px;
+}
+.btn-img {
+    border-width:0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.text-field {
+    height: 150px;
+    width: 770.05px;
+}
+.info-input span {
+    font-weight: bold;
+}
+.info-input input {
+    width:400px;
+}
+.context {
+    padding: 0px 30px 0px 30px;
 }
 .video {
     padding-top: 15px;
 }
 .welcome {
-    width: 800px;
+    width: 780px;
 }
 .menu2 {
-    padding-left: 3px;
+    padding-left: 0px;
 }
 .menu6 {
     padding-left: 125px;
@@ -47,7 +74,7 @@ p {
     margin-left: auto;
 }
 .logoimg {
-    width: 90%;
+    width: 80%;
 }
 .img-welcome {
     padding-top: 50px;
@@ -57,7 +84,7 @@ p {
     height: 132px;
 }
 .parr {
-    width: 800px;
+    width: 780px;
     text-align: justify;
 }
 .parr2 {
