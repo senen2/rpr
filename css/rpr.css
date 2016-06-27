@@ -11,6 +11,13 @@ p {
     margin: 0;
     margin-bottom: 15px;
 }
+.thx {
+    font-size: x-large;
+    color: #800000;
+    width: 780px;
+    text-align: center;
+    height: 90px
+}
 .info-contact p {
     text-align: center;
     font-size: 11.0pt;
