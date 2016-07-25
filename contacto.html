@@ -9,6 +9,7 @@
     <link rel="stylesheet" type="text/css" href="css/rpr.css">
     <link rel="shortcut icon" href="favicon.ico" />
     <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+    <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
     <script type="text/javascript">
       var _gaq = _gaq || [];
       _gaq.push(['_setAccount', 'UA-204913-4']);
@@ -26,14 +27,18 @@
       function enviar()
       {
         if ($("#texto").val().length>0) {
-            encabezado="'contacto@pjijuridica.com',''";
-            servidor="192.168.1.110:8080";
-            pagina="pjicontacto";
+            encabezado="'contacto@rprabogados.com',''";
+            // servidor="192.168.1.100:8080";
+            servidor="botpi.com:8080";
+            pagina="rprcontacto";
             datos = {};
             datos.nombre=$("#nombre").val();
             datos.correo=$("#correo").val();
             datos.telefono=$("#telefono").val();
             datos.texto=$("#texto").val();
+            datos.sender="contacto@rprabogados.com";
+            datos.recipient="rprabogados@hotmail.com";
+            // datos.recipient="senenbotello@gmail.com";
             $.post( 'http://' + servidor + '/functiond/EnviarEmail(' + encabezado + ')?pagina=' + pagina, JSON.stringify(datos))
                 .always(function(){
                     window.open("gracias.html", "_self");
@@ -100,7 +105,7 @@
             <textarea class="text-field" rows="2" cols="20" id="texto"></textarea><br>
             <input class="btn-img" type="image" id="BotonEnviar" src="images/boton%20enviar.jpg" onclick="enviar();" />
             <div class="info-contact">
-                <p>Calle 17 No. 4- 68 Oficina 1507 edificio Proas Bogotá D.C., Colombia Tels. (571) 284 2234 - (57) 310 813 8478
+                <p>Calle 17 No. 4- 68 Oficina 1109 edificio Proas Bogotá D.C., Colombia Tels. (571) 391 8276 - (57) 310 813 8478
                 </p>
                 <p>rolando.penagos@rprabogados.com</p>
             </div>
